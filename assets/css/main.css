@@ -3945,6 +3945,21 @@ input, select, textarea {
 
 		}
 
+/*comment out for the projects page */
+.posts article .image img {
+    width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    object-fit: contain; /* Ensure the entire image is visible within the container */
+}
+
+.posts article .image {
+    display: flex;
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
+}
+
+
+
 /* Footer */
 
 	#footer {
